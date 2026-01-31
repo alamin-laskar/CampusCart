@@ -1,0 +1,39 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5%;
+  background: #fff;
+  border-bottom: 1px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 900;
+  text-decoration: none;
+  color: #111;
+}
+
+.logo span { color: #0070f3; }
+
+.links { display: flex; gap: 2rem; }
+.links a {
+  text-decoration: none;
+  color: #666;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.auth { display: flex; gap: 1rem; align-items: center; }
+.loginBtn { text-decoration: none; color: #111; font-weight: 500; }
+.signupBtn {
+  background: #0070f3;
+  color: #fff;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+}
